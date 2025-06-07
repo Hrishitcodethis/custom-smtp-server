@@ -1,0 +1,41 @@
+
+=== EMAIL RECEIVED ===
+Session ID: t4lsd5fsxtqzdrp7
+From: test@example.com
+To: recipient@example.com
+Received At: 2025-06-07T08:22:49.817Z
+Client IP: 127.0.0.1
+Client Hostname: blr-tdc-bngs-03
+
+=== EMAIL CONTENT ===
+From: test@example.com
+To: recipient@example.com
+Subject: Test Email from Custom SMTP Server
+Message-ID: <fe940e85-3fc1-f0ed-5782-f5679b992e7f@example.com>
+Date: Sat, 07 Jun 2025 08:22:49 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--_NmP-edca25c4bc65c0a3-Part_1"
+
+----_NmP-edca25c4bc65c0a3-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+This is a test email sent to verify the SMTP server is working correctly!
+----_NmP-edca25c4bc65c0a3-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+                <h2>=F0=9F=8E=89 SMTP Server Test</h2>
+                <p>This is a test email sent to verify the SMTP server is =
+working correctly!</p>
+                <p><strong>Timestamp:</strong> =
+2025-06-07T08:22:49.493Z</p>
+                <p><strong>Server:</strong> =
+Custom Node.js SMTP Server</p>
+           =20
+----_NmP-edca25c4bc65c0a3-Part_1--
+
+
+=== END OF EMAIL ===

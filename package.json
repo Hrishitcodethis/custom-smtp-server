@@ -1,0 +1,38 @@
+{
+    "name": "custom-smtp-server",
+    "version": "1.0.0",
+    "description": "A custom SMTP server built with Node.js for receiving and storing emails",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "node test-client.js"
+    },
+    "keywords": [
+        "smtp",
+        "email",
+        "server",
+        "nodejs",
+        "mail"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "smtp-server": "^3.13.8"
+    },
+    "devDependencies": {
+        "nodemailer": "^6.10.1",
+        "nodemon": "^3.0.1"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yourusername/custom-smtp-server.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yourusername/custom-smtp-server/issues"
+    },
+    "homepage": "https://github.com/yourusername/custom-smtp-server#readme"
+}
